@@ -1,0 +1,17 @@
+[push]
+    default = simple
+[user]
+    name = Christian Fehmer
+    email = cfe@sexy-developer.com
+[core]
+    autocrlf = false
+    editor = subl -n -w
+    excludesfile = /Users/cfe/.gitignore
+[branch]
+    autosetuprebase = always
+[alias]
+    ci = commit
+    co = checkout
+    st = status
+    sup = submodule update --init --recursive
+    undo = reset --hard HEAD^1
